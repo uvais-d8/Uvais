@@ -1,776 +1,590 @@
+
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-
+<html lang="en">
+<!-- header started -->
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Muhammed Uvais</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- image -->
+  <!-- Favicons -->
+  <link href="images/profile1.png" rel="icon">
+  <link href="images/profile1.png" rel="apple-touch-icon">
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hudson</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
 
 </head>
 
+<body class="index-page">
 
-<body id="top">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
+      <a href="index.html" class="logo d-flex align-items-center">
+       
+        <h1 class="sitename">Muhammed Uvais T</h1>
+      </a>
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+<!-- header ended -->
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section  id="hero" class="hero section dark-background">
+
+      <img src="images/main.jpg" alt="" data-aos="fade-in">
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2> Muhammed Uvais</h2>
+        <p><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+    <div style="width: 100%; height: 15px; background-color: rgb(255, 255, 255);"></div>
+
+    <!-- About Section -->
+    <section style="background-color: rgb(27, 27, 27);" id="about" class="about section">
+
+      <div style="background-color: rgba(255, 255, 255, 0.842);" class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+               <img src="images/small.jpg" class="img-fluid" alt="">
+              </div>
+              <div style="color: rgb(0, 0, 0);" class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Muhammed Uvais</span></p>
+                <p><strong>Profile: </strong> <span>MERN stack developer</span></p>
+                <p><strong>Email: </strong> <span>muhammeduvais6060@gmail.com</span></p>
+                <p><strong>Phone: </strong> <span>75 9406 0696</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">20%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Photoshop</span> <i class="val">30%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+                Hello, my name is Muhammed Uvais, and I hail from Valluvambram. I have completed my +2 education with a focus on Computer Commerce.
+              </p>
+              <p>
+                Currently, I am pursuing further studies at Brototype, where I am expanding my expertise and skills.
+              </p>
+              <p>
+                My mother, Jameela, and my father, Abdul Rasak, have been unwavering pillars of support throughout my educational journey. I am dedicated to leveraging my academic background and ongoing training to achieve my professional aspirations and contribute meaningfully to my field.
+              </p>
+            </div>
+          </div>
         </div>
+
+      </div>
+    </section><!-- /About Section -->
+    <div style="width: 100%; height: 15px; background-color: rgb(255, 255, 255);"></div>
+
+
+    <!-- Resume Section -->
+    <section style="background-color: rgb(226, 226, 226);" id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>basically i am a MERN Stack Devoloper currently studying in BrotoType </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Muhammed Uvais</h4>
+              <p><em>MERN stack developer specializes in using a set of technologies for building dynamic, full-stack web applications. The MERN stack consists of MongoDB, Express.js, React, and Node.js. MongoDB serves as the NoSQL database that handles data storage, while Express</em></p>
+              <!-- <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul> -->
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>+2 higher secondary &amp; Computer Commerce</h4>
+              <h5>2022 - 2024</h5>
+              <p><em>P.P.M.H.S.S Kottukara</em></p>
+              <p>PPMHSS Kottukara is a well-regarded educational institution located in Kottukara, Kerala, India. The acronym PPMHSS stands for Panakkad Pukoyathangal Memorial Higher Secondary School</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>BROTOTYPE &amp; Coding institute in Calicut</h4>
+              <h5>2024 - 2025</h5>
+              <p><em>Currently i am studying coding in Brototype</em></p>
+              <p>Brototype Coding Institute, located in Kinfra, Calicut, is a premier educational center dedicated to equipping students with cutting-edge programming skills and technical expertise. The institute offers a range of courses designed to cater to various levels of coding proficiency, from beginners to advanced programmers.</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Family Background</h3>
+            <div class="resume-item">
+              <h4>i am including from a small family</h4>
+              <!-- <h5>2019 - Present</h5> -->
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>My family lives in Valluvambram, and we’re really close. My mom, Jameela, is always so caring and kind, making sure everyone feels loved and supported.</li>
+                <li> My dad, Abdul Rasak, works hard and sets a great example for us with his honesty and dedication.</li>
+                <li> My sister, Aysha Azmin, brings a lot of energy and fun into our lives. We all get along well and enjoy spending time together, making our home a happy and loving place.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h3 class="resume-title">social</h3>
+              <p><em>Stepping to social activities and social works</em></p>
+              <ul>
+                <li>Community Building: Social activities help strengthen bonds among people within a community, creating a sense of belonging and mutual support.</li>
+                <li>Personal Development: Participating in social activities can enhance personal skills, such as communication, teamwork, and leadership. They provide opportunities for learning and self-improvement.</li>
+                <li>Physical Health: Many social activities, such as sports or group exercise, contribute to physical health and fitness, making them beneficial for overall well-being.</li>
+               
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+    <div style="width: 100%; height: 15px; background-color: rgb(255, 255, 255);"></div>
+
+    <!-- Services Section -->
+    <section style="background-color: rgba(158, 158, 158, 0.562);"  id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>all providing services are.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>programming</h3>
+              </a>
+              <p>Programming is the process of creating instructions that a computer can follow to perform specific tasks or solve problems.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>web designer</h3>
+              </a>
+              <p>Web design is the craft of creating visually appealing and user-friendly websites. It involves a blend of aesthetics and functionality, focusing on layout, color schemes, typography, and navigation to enhance user experience.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Editer</h3>
+              </a>
+              <p>Adobe Photoshop is a powerful and versatile image editing software widely used in various fields such as photography, graphic design, and digital art.corrently using photo shop to edit </p>
+            </div>
+          </div><!-- End Service Item -->
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+    <div style="width: 100%; height: 15px; background-color: rgb(255, 255, 255);"></div>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section accent-background">
+
+      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="0" class="purecounter">2</span>
+              <p>Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="0" class="purecounter">4</span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0" class="purecounter">3</span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="0" class="purecounter">1</span>
+              <p>Awards</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Stats Section -->
+    <div style="width: 100%; height: 15px; background-color: rgb(255, 255, 255);"></div>
+
+    <!-- Portfolio Section -->
+    <section style="background-color: rgb(206, 206, 206);" id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Here the websights i have desiged yet</p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">uber</li>
+            <li data-filter=".filter-product">BMW</li>
+            <li data-filter=".filter-branding">KFC</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+           
+            <!--End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="images/bmw.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BMW India</h4>
+                <p>BMW is a renowned German automotive manufacturer for  luxury vehicles and performance-oriented.</p>
+             
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="images/KFC.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>KFC</h4>
+                <p>KFC, is a globally recognized fast-food chain known for its fried chicken.</p>
+               
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="images/uber.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CLONE OF UBER</h4>
+                <p>Uber Taxi is a service offered by Uber that integrates traditional taxi services.
+                </p>
+
+              </div>
+            </div><!-- End Portfolio Item -->  
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Pricing Section -->
+    <div style="width: 100%; height: 5px; background-color: rgba(0, 0, 0, 0.664);"></div>
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span> Notable </span><strong>Quites</strong></h3>
+              <p>
+               
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                 <h3>you can check it out if you believe in it .you can follow. </h3>
+                <div class="faq-content">
+
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">1.</span> <span>Life is only once .If you do it Right ,Once is enogh</span></h3>
+                <div class="faq-content">
+                  <p>It reflects the idea that living life to its fullest and making meaningful choices can make a single lifetime feel complete and fulfilling</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>You must live your own life ,But not others.</span></h3>
+                <div class="faq-content">
+                  <p>nderstand your own values, goals, and desires. Focus on what truly matters to you rather than being swayed by others’ expectations or opinions.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>You don't compare your Background to other's lifestyle</span></h3>
+                <div class="faq-content">
+                  <p>comparing your background to someone else’s lifestyle can be unproductive and disheartening.Becouse Everyone has a unique background and personal circumstances. Comparing your life to someone else’s overlooks the individual experiences and challenges each person faces</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>You never Think about others opiniun about what we Do</span></h3>
+                <div class="faq-content">
+                  <p>becouse, focusing too much on others' opinions can be detrimental to personal well-being and progress.Staying true to yourself and your values is crucial for personal fulfillment. When you make decisions based on your own beliefs and passions, you maintain authenticity and integrity.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+    <div style="width: 100%; height: 5px; background-color: rgba(0, 0, 0, 0.486);"></div>
+
+    <!-- Contact Section -->
+    <section style="background-color: rgb(209, 209, 209);" id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Info</h2>
+        <p>If you want to contact me ,just Text me </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Valluvambram,Malappuram,Kerala</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Me</h3>
+                  <p>75 9406 0696</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Me</h3>
+                  <p>muhammeduvais6060@gmail.com</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+        <form style="background-color: rgb(255, 255, 255);" action="https://api.web3forms.com/submit" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+
+          <input type="hidden" name="access_key" value="493d2513-f9c4-4a93-9e68-e18a159f66f3">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message to uvais has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+    <div style="width: 100%; height: 5px; background-color: rgba(0, 0, 0, 0.664);"></div>
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">uvais_d8</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61562901427940&mibextid=LQQJ4d"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/uvais_d8/?hl=en"><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://github.com/uvais-d8">Muhammed Uvais</a>
+      </div>
     </div>
 
-
-    <!-- page wrap
-    ================================================== -->
-    <div id="page" class="s-pagewrap">
-
-
-        <!-- # site header 
-        ================================================== -->
-        <header class="s-header">
-            <div class="row s-header__inner">
-
-                <div class="s-header__block">
-                    <div class="s-header__logo">
-                        <a class="logo" href="index.html">
-                            <img src="images/logo.svg" alt="Homepage">
-                        </a>
-                    </div>
-
-                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-                </div> <!-- end s-header__block -->
-
-                <nav style="background-color: red;" class="s-header__nav">
-                    <ul class="s-header__menu-links">
-                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
-                        <li><a class="smoothscroll" href="#about">About</a></li>
-                        <li><a class="smoothscroll" href="#works">Works</a></li>
-                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
-                    </ul> <!-- s-header__menu-links -->
-                </nav> <!-- end s-header__nav -->
-
-            </div> <!-- end s-header__inner -->
-        </header> <!-- end s-header -->
-
-
-        <!-- # intro
-        ================================================== -->
-        <section id="intro" class="s-intro target-section">
-
-            <div class="row s-intro__content width-sixteen-col">
-                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
-
-                    <div class="s-intro__content-text">
-
-                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
-                        <h1 class="s-intro__content-title">
-                            I'm Jonathan Doe <br>
-                            a product designer <br>
-                            base in Somewhere.
-                        </h1>
-
-                        <div class="s-intro__content-btns">
-                            <a class="smoothscroll btn" href="#about">More About Me</a>
-                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
-                        </div> <!-- s-intro__content-btns -->
-
-                    </div> <!-- s-intro__content-text -->
-
-                </div> <!-- s-intro__content-inner -->
-            </div> <!-- s-intro__content -->
-
-            <ul class="s-intro__social social-list">
-                <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                            <path
-                                d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z">
-                            </path>
-                        </svg>
-                        <span class="u-screen-reader-text">Facebook</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                            <path
-                                d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z">
-                            </path>
-                        </svg>
-                        <span class="u-screen-reader-text">Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                            <path
-                                d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z">
-                            </path>
-                            <circle cx="16.806" cy="7.207" r="1.078"></circle>
-                            <path
-                                d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z">
-                            </path>
-                        </svg>
-                        <span class="u-screen-reader-text">Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-                            <path
-                                d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z">
-                            </path>
-                        </svg>
-                        <span class="u-screen-reader-text">Dribbble</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-                            <path
-                                d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 0 1 .069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 0 0 2.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2">
-                            </path>
-                        </svg>
-                        <span class="u-screen-reader-text">Pinterest</span>
-                    </a>
-                </li>
-            </ul> <!-- end s-intro__social -->
-
-            <div class="s-intro__content-media">
-                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg.jpg 2x" alt="">
-            </div> <!-- s-intro__content-media -->
-
-            <div class="s-intro__btn-download">
-                <a class="btn btn--stroke" href="#0">Get My CV</a>
-            </div> <!-- end s-intro__btn-download -->
-
-            <div class="s-intro__scroll-down">
-                <a href="#about" class="smoothscroll">
-                    <div class="scroll-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-                            <path
-                                d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z">
-                            </path>
-                        </svg>
-                    </div>
-                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
-                </a>
-            </div> <!-- s-intro__scroll-down -->
-
-        </section> <!-- end s-intro -->
-
-
-        <!-- # about
-        ================================================== -->
-        <section id="about" class="s-about target-section">
-
-            <div class="row s-about__content">
-                <div class="column xl-12">
-
-                    <div class="section-header" data-num="01">
-                        <h2 class="text-display-title">About Me.</h2>
-                    </div> <!-- end section-header -->
-
-                    <p class="attention-getter">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas explicabo id debitis
-                        cupiditate cumque, error quia! Debitis cupiditate ipsa nihil labore, earum atque dolor quos
-                        saepe vero inventore, odit nam deleniti accusantium omnis mollitia consequatur harum incidunt!
-                        Ex modi aut repudiandae doloremque commodi recusandae labore sit. Perspiciatis omnis dolor
-                        dolores fuga iusto, recusandae animi nisi consequuntur exercitationem id maxime earum pariatur
-                        voluptas! Porro non quos quae tempora fuga quis sequi minus sed sint debitis reiciendis, nostrum
-                        natus suscipit iusto odio.
-                    </p>
-
-                    <p class="attention-getter">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. Ut enim
-                        ad minim
-                    </p>
-
-                    <div class="grid-list-items s-about__blocks">
-
-                        <div class="grid-list-items__item s-about__block">
-                            <h4 class="s-about__block-title">Experience</h4>
-                            <ul class="s-about__list">
-                                <li>
-                                    Spotify
-                                    <span>Product Designer</span>
-                                </li>
-                                <li>
-                                    Dropbox
-                                    <span>Interface Developer</span>
-                                </li>
-                                <li>
-                                    Google
-                                    <span>Lead UI Designer</span>
-                                </li>
-                                <li>
-                                    Figma
-                                    <span>UI Designer</span>
-                                </li>
-                                <li>
-                                    Microsoft
-                                    <span>UI Designer</span>
-                                </li>
-                            </ul>
-                        </div> <!--end s-about__block -->
-
-                        <div class="grid-list-items__item s-about__block">
-                            <h4 class="s-about__block-title">Awards</h4>
-
-                            <ul class="s-about__list">
-                                <li>
-                                    <a href="#0">
-                                        Site Of The Month
-                                        <span>Awwwards — 2023</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#0">
-                                        Site Of The Day
-                                        <span>Awwwards — 2023</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#0">
-                                        Agency of The Year
-                                        <span>Awwwards — 2022</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#0">
-                                        FWA of The Month
-                                        <span>FWA — 2022</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#0">
-                                        Site Of The Month
-                                        <span>Awwwards — 2022</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div> <!--end s-about__block -->
-
-                        <div class="grid-list-items__item s-about__block">
-                            <h4 class="s-about__block-title">Skills</h4>
-
-                            <ul class="s-about__list">
-                                <li>
-                                    Product Design
-                                </li>
-                                <li>
-                                    UI/UX Design
-                                </li>
-                                <li>
-                                    Prototyping
-                                </li>
-                                <li>
-                                    Frontend Development
-                                </li>
-                                <li>
-                                    Illustration
-                                </li>
-                                <li>
-                                    Visual Design
-                                </li>
-                            </ul>
-                        </div> <!--end s-about__block -->
-
-                    </div> <!-- grid-list-items -->
-
-                </div> <!--end column -->
-            </div> <!--end s-about__content -->
-
-        </section> <!-- end s-about -->
-
-
-
-        <!-- # works
-        ================================================== -->
-        <section id="works" class="s-works target-section">
-
-            <div class="row">
-                <div class="column xl-12">
-                    <div class="section-header" data-num="02">
-                        <h2 class="text-display-title">Selected Works.</h2>
-                    </div> <!-- end section-header -->
-                </div>
-            </div>
-
-            <div class="row folio-entries">
-
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-turban.jpg" class="entry__link glightbox"
-                        data-glightbox="title: White Knit Cap; description: .entry__desc-01">
-                        <div class="entry__thumb">
-                            <img src="images/folio/white_turban.jpg"
-                                srcset="images/folio/white_turban.jpg 1x, images/folio/white_turban@2x.jpg 2x" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">White Knit Cap</h4>
-                            <div class="entry__cat">Frontend Design</div>
-                        </div>
-                    </a>
-
-                    <div class="glightbox-desc entry__desc-01">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                            deleniti facilis ab, tempora non! Nisi, tempora provident.
-                            <a href="https://www.behance.net/">Project Link</a>.
-                        </p>
-                    </div>
-                </div> <!-- entry -->
-
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-woodcraft.jpg" class="entry__link glightbox"
-                        data-glightbox="title: WoodCraft; description: .entry__desc-02">
-                        <div class="entry__thumb">
-                            <img src="images/folio/woodcraft.jpg"
-                                srcset="images/folio/woodcraft.jpg 1x, images/folio/woodcraft@2x.jpg 2x" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">WoodCraft</h4>
-                            <div class="entry__cat">Product Design</div>
-                        </div>
-                    </a>
-
-                    <div class="glightbox-desc entry__desc-02">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                            deleniti facilis ab, tempora non! Nisi, tempora provident.
-                            <a href="https://www.behance.net/">Project Link</a>.
-                        </p>
-                    </div>
-                </div> <!-- entry -->
-
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-tulips.jpg" class="entry__link glightbox"
-                        data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03">
-                        <div class="entry__thumb">
-                            <img src="images/folio/caffeine_and_tulips.jpg"
-                                srcset="images/folio/caffeine_and_tulips.jpg 1x, images/folio/caffeine_and_tulips@2x.jpg 2x"
-                                alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Caffeine & Tulips</h4>
-                            <div class="entry__cat">Brand Identity</div>
-                        </div>
-                    </a>
-
-                    <div class="glightbox-desc entry__desc-03">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                            deleniti facilis ab, tempora non! Nisi, tempora provident.
-                            <a href="https://www.behance.net/">Project Link</a>.
-                        </p>
-                    </div>
-                </div> <!-- entry -->
-
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-grayscale.jpg" class="entry__link glightbox"
-                        data-glightbox="title: Grayscale; description: .entry__desc-04">
-                        <div class="entry__thumb">
-                            <img src="images/folio/grayscale.jpg"
-                                srcset="images/folio/grayscale.jpg 1x, images/folio/grayscale@2x.jpg 2x" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Grayscale</h4>
-                            <div class="entry__cat">Product Design</div>
-                        </div>
-                    </a>
-
-                    <div class="glightbox-desc entry__desc-04">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                            deleniti facilis ab, tempora non! Nisi, tempora provident.
-                            <a href="https://www.behance.net/">Project Link</a>.
-                        </p>
-                    </div>
-                </div> <!-- entry -->
-
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-lamp.jpg" class="entry__link glightbox"
-                        data-glightbox="title: The Lamp; description: .entry__desc-05">
-                        <div class="entry__thumb">
-                            <img src="images/folio/lamp.jpg"
-                                srcset="images/folio/lamp.jpg 1x, images/folio/lamp@2x.jpg 2x" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">The Lamp</h4>
-                            <div class="entry__cat">Brand Identity</div>
-                        </div>
-                    </a>
-
-                    <div class="glightbox-desc entry__desc-05">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                            deleniti facilis ab, tempora non! Nisi, tempora provident.
-                            <a href="https://www.behance.net/">Project Link</a>.
-                        </p>
-                    </div>
-                </div> <!-- entry -->
-
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-tropical.jpg" class="entry__link glightbox"
-                        data-glightbox="title: Tropical; description: .entry__desc-06">
-                        <div class="entry__thumb">
-                            <img src="images/folio/tropical.jpg"
-                                srcset="images/folio/tropical.jpg 1x, images/folio/tropical@2x.jpg 2x" alt="">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Tropical</h4>
-                            <div class="entry__cat">Frontend Design</div>
-                        </div>
-                    </a>
-
-                    <div class="glightbox-desc entry__desc-06">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Inventore ipsum iste soluta fugiat, impedit illum ducimus
-                            deleniti facilis ab, tempora non! Nisi, tempora provident.
-                            <a href="https://www.behance.net/">Project Link</a>.
-                        </p>
-                    </div>
-                </div> <!-- entry -->
-
-            </div> <!-- folio entries -->
-
-
-            <div class="row s-testimonials">
-                <div class="column xl-12">
-
-                    <h3 class="s-testimonials__header">Hear it from My Happy Clients</h3>
-
-                    <div class="swiper-container s-testimonials__slider">
-
-                        <div class="swiper-wrapper">
-
-                            <div class="s-testimonials__slide swiper-slide">
-                                <div class="s-testimonials__author">
-                                    <img src="images/avatars/user-02.jpg" alt="Author image"
-                                        class="s-testimonials__avatar">
-                                    <cite class="s-testimonials__cite">
-                                        <strong>John Rockefeller</strong>
-                                        <span>Standard Oil Co.</span>
-                                    </cite>
-                                </div>
-                                <p>
-                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore
-                                    rem.
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores
-                                    quaerat fuga rem nihil nostrum.
-                                    Laudantium quia consequatur molestias.
-                                </p>
-                            </div> <!-- end s-testimonials__slide -->
-
-                            <div class="s-testimonials__slide swiper-slide">
-                                <div class="s-testimonials__author">
-                                    <img src="images/avatars/user-03.jpg" alt="Author image"
-                                        class="s-testimonials__avatar">
-                                    <cite class="s-testimonials__cite">
-                                        <strong>Andrew Carnegie</strong>
-                                        <span>Carnegie Steel Co.</span>
-                                    </cite>
-                                </div>
-                                <p>
-                                    Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat
-                                    voluptas animi adipisci.
-                                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
-                                    Quasi voluptas eius distinctio. Atque eos maxime.
-                                </p>
-                            </div> <!-- end s-testimonials__slide -->
-
-                            <div class="s-testimonials__slide swiper-slide">
-                                <div class="s-testimonials__author">
-                                    <img src="images/avatars/user-01.jpg" alt="Author image"
-                                        class="s-testimonials__avatar">
-                                    <cite class="s-testimonials__cite">
-                                        <strong>John Morgan</strong>
-                                        <span>JP Morgan & Co.</span>
-                                    </cite>
-                                </div>
-                                <p>
-                                    Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea
-                                    quia nesciunt. Ducimus aut sed ipsam.
-                                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas
-                                    eius distinctio.
-                                    Voluptatem dignissimos ut.
-                                </p>
-                            </div> <!-- end s-testimonials__slide -->
-
-                            <div class="s-testimonials__slide swiper-slide">
-                                <div class="s-testimonials__author">
-                                    <img src="images/avatars/user-06.jpg" alt="Author image"
-                                        class="s-testimonials__avatar">
-                                    <cite class="s-testimonials__cite">
-                                        <strong>Henry Ford</strong>
-                                        <span>Ford Motor Co.</span>
-                                    </cite>
-                                </div>
-                                <p>
-                                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui.
-                                    In ac felis
-                                    quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti
-                                    expedita voluptas odit.
-                                    Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-                                </p>
-                            </div> <!-- end s-testimonials__slide -->
-
-                        </div> <!-- end swiper-wrapper -->
-
-                        <div class="swiper-pagination"></div>
-
-                    </div> <!-- end swiper-container -->
-
-                </div> <!-- end column -->
-            </div> <!-- end s-testimonials -->
-
-        </section> <!-- end s-works -->
-
-
-        <!-- # numbers
-        ================================================== -->
-        <section id="numbers" class="s-numbers">
-
-            <div class="row counter-items">
-
-                <div class="column counter-items__item">
-                    <div class="num">
-                        80
-                        <span>+</span>
-                    </div>
-                    <h5>Happy Customers</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Vel harum magni quae voluptate error quo repellendus inventore
-                        laborum ex veniam.
-                    </p>
-                </div> <!-- end counter-items__item -->
-
-                <div class="column counter-items__item">
-                    <div class="num">
-                        120
-                        <span>+</span>
-                    </div>
-                    <h5>Projects Completed</h5>
-                    <p>
-                        Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue.
-                        Fusce vel dui. In ac felis
-                        quis tortor malesuada pretium
-                    </p>
-                </div> <!-- end counter-items__item -->
-
-                <div class="column counter-items__item">
-                    <div class="num">
-                        23k
-                        <span>+</span>
-                    </div>
-                    <h5>Lines of Code</h5>
-                    <p>
-                        Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi
-                        adipisci.
-                        Nisi eaque consequatur. Voluptatem dignissimos ut ducimus
-                    </p>
-                </div> <!-- end counter-items__item -->
-
-                <div class="column counter-items__item">
-                    <div class="num">
-                        85
-                        <span>+</span>
-                    </div>
-                    <h5>Positive Feedback</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae voluptate error
-                        quo repellendus inventore laborum ex veniam.
-                    </p>
-                </div> <!-- end counter-items__item -->
-
-            </div> <!-- end counter-items -->
-
-        </section> <!-- end s-numbers -->
-
-
-        <!-- # footer 
-        ================================================== -->
-        <footer id="footer" class="s-footer target-section">
-
-            <div class="row">
-                <div class="column lg-12">
-                    <div class="section-header light-on-dark" data-num="03">
-                        <h2 class="text-display-title">Get In Touch.</h2>
-                    </div> <!-- end section-header -->
-                </div>
-            </div>
-
-            <div class="row s-footer__content">
-
-                <div class="column xl-6 md-12 s-footer__block s-footer__about">
-                    <p class="attention-getter">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum quasi facere libero,
-                        fugiat laboriosam possimus amet consectetur adipisicing elit reprehenderit eveniet tempore
-                        quisquam ipsa id esse. Facere ratione dignissimos.
-                    </p>
-                </div> <!-- end section-footer__about -->
-
-                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
-                    <div class="row">
-                        <div class="column xl-4 lg-5 md-6 tab-12">
-                            <h5>Follow Me</h5>
-                            <ul class="link-list">
-                                <li><a href="#0">Facebook</a></li>
-                                <li><a href="#0">Twitter</a></li>
-                                <li><a href="#0">Instagram</a></li>
-                                <li><a href="#0">Dribbble</a></li>
-                                <li><a href="https://styleshout.com/go/hostinger/">Hostinger</a></li>
-                            </ul>
-                        </div>
-                        <div class="column xl-6 md-6 tab-12">
-                            <h5>Contact Me</h5>
-                            <ul class="link-list">
-                                <li><a href="mailto:#0">sayhello@hudson.com</a></li>
-                                <li><a href="tel:+1975432345">+197 543 2345</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> <!-- end section-footer__site-links -->
-
-            </div> <!-- end section-footer__content -->
-
-
-            <div class="row s-footer__buttons">
-
-                <div class="column xl-6 tab-12">
-                    <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
-                </div>
-
-                <div class="column xl-6 tab-12">
-                    <a href="#0" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
-                </div>
-
-            </div> <!-- end section-footer__buttons -->
-
-            <div class="row s-footer__bottom">
-
-                <div class="column xl-6 lg-12">
-                    <ul class="s-footer__social social-list">
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                                    <path
-                                        d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z">
-                                    </path>
-                                </svg>
-                                <span class="u-screen-reader-text">Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                                    <path
-                                        d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z">
-                                    </path>
-                                </svg>
-                                <span class="u-screen-reader-text">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                                    <path
-                                        d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z">
-                                    </path>
-                                    <circle cx="16.806" cy="7.207" r="1.078"></circle>
-                                    <path
-                                        d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z">
-                                    </path>
-                                </svg>
-                                <span class="u-screen-reader-text">Instagram</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-                                    <path
-                                        d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z">
-                                    </path>
-                                </svg>
-                                <span class="u-screen-reader-text">Dribbble</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div> <!-- end section-footer__social -->
-
-                <div class="column xl-6 lg-12">
-                    <p class="ss-copyright">
-                        <span>© Copyright Hudson 2023</span>
-                        <span>Design by <a href="https://styleshout.com/">StyleShout</a> Distribution by <a
-                                href="https://themewagon.com">ThemeWagon</a></span>
-                    </p>
-                </div>
-
-            </div> <!-- end section-footer__bottom -->
-
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-                        <path
-                            d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z">
-                        </path>
-                    </svg>
-                </a>
-                <span>Back To Top</span>
-            </div> <!-- end ss-go-top -->
-
-        </footer> <!-- end s-footer -->
-
-    </div> <!-- end page-wrap -->
-
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
